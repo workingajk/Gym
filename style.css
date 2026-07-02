@@ -9,19 +9,20 @@
 
 body {
     background-color: #a3b7ca;
-
 }
+
 
 header {
     width: 100%;
-    height: 60px;
+    height: 9vh;
     background-color: #194a7a;
     color: #d1dbe4;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    position: fixed;
+    position: sticky;
+    top: 0px;
     z-index: 1;
 }
 
@@ -40,21 +41,25 @@ ul li a {
 }
 
 button {
-    background-color: #a3b7ca;
+    background-color: #194a7a;
     padding: 10px 30px;
-    color: #194a7a;
+    color: #a3b7ca;
     border-radius: 25px;
     border: none;
 }
 
-button:hover{
-    background-color: #194a7a;
-    color: #a3b7ca;
+button:hover {
+    background-color: #a3b7ca;
+    color: #194a7a;
     box-shadow: 0px 0px 3px white;
 }
 
 #banner {
     position: relative;
+}
+
+#banner h1 {
+    text-align: start;
 }
 
 video {
@@ -71,3 +76,148 @@ video {
     font-size: x-large;
 }
 
+#content h1::first-letter {
+    color: white;
+    font-size: 70px;
+}
+
+#content button {
+    background-color: #194a7a;
+    padding: 10px 15px;
+    color: #a3b7ca;
+    border-radius: 25px;
+    /* border: 1px solid #194a7a; */
+    border: none;
+    font-weight: 200;
+    font-size: x-large;
+}
+
+#content button:hover {
+    background-color: #a3b7ca;
+    color: #194a7a;
+    box-shadow: 0px 0px 8px 8px #194a7a;
+    border: 1px solid #194a7a;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    height: 91vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.c1 {
+    padding: 20px;
+
+}
+
+#about .col {
+    width: 50%;
+
+}
+
+p {
+    text-align: justify;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    /* background-color: #a3b7ca; */
+}
+
+#pass {
+    background-color: #194a7a;
+    height: 92vh;
+}
+
+#pass h1 {
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}
+
+#pass .row {
+    height: 79vh;
+}
+
+
+.col1 {
+    width: 350px;
+    height: 400px;
+    margin: 0px 20px;
+    background-color: #3682ce;
+    padding: 20px;
+    border: 2px solid #194a7a;
+    border-radius: 20px;
+
+}
+
+#pass .col1:hover {
+    background-color: #579ad8;
+    box-shadow: 0px 45px 40px -10px #bdd2e7;
+}
+
+#trainers .col1 img {
+    width: 100%;
+}
+
+#trainers .col1 {
+    height: 300px;
+    margin: 20px;
+}
+
+#trainers h1 {
+    padding-top: 20px;
+}
+
+#trainers .row {
+    padding: 10px 30px;
+}
+
+
+footer {
+    /* text-align: center; */
+    background-color: #194a7a;
+    color: #d1dbe4;
+    height: 400px;
+}
+
+#footer .row {
+    height: 200px;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.foots h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+#copyright .row {
+    justify-content: space-between;
+    height: 50px;
+    /* padding: ; */
+}
+
+#insta{
+    background-color: #579ad8;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 30px;
+}
+
+#copyright,#insta p{
+    margin: 0px 30px;
+}
